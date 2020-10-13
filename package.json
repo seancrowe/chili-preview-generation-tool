@@ -1,0 +1,23 @@
+{
+  "name": "preview-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build-win": "nexe -t windows-x64-12.9.1  -o ./build/win/preview-generator",
+    "build-mac": "nexe -t mac-x64-12.14.1  -o ./build/mac/preview-generator"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "chiliconnector": "^1.0.3",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.3",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "nexe": "^3.3.7"
+  }
+}
